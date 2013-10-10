@@ -17,12 +17,12 @@ import android.widget.Spinner;
 public class ParserThread extends AsyncTask<Void, Void, String>
 {
     // Reference the main activity object
-    private AsyncTaskThread asyncThread_;
+    private DataPullThread asyncThread_;
     
     /**
      * @param asyncTaskThread
      */
-    public ParserThread( AsyncTaskThread asyncTaskThread )
+    public ParserThread( DataPullThread asyncTaskThread )
     {
         asyncThread_ = asyncTaskThread;
     }

@@ -17,7 +17,7 @@ import android.os.AsyncTask;
  * @version Sep 27, 2013
  * 
  */
-public class AsyncTaskThread extends AsyncTask<Void, Void, String>
+public class DataPullThread extends AsyncTask<Void, Void, String>
 {
     // Reference the main activity object
     protected MainActivity activity_;
@@ -34,7 +34,7 @@ public class AsyncTaskThread extends AsyncTask<Void, Void, String>
     /**
      * @param activityToCallBack
      */
-    public AsyncTaskThread( MainActivity activityToCallBack )
+    public DataPullThread( MainActivity activityToCallBack )
     {
         activity_ = activityToCallBack;
         ParserThread_ = new ParserThread( this );

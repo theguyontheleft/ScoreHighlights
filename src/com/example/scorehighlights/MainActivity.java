@@ -3,7 +3,7 @@ package com.example.scorehighlights;
 import java.util.ArrayList;
 import org.json.JSONObject;
 
-import com.example.scorehighlights.AsyncTaskThread;
+import com.example.scorehighlights.DataPullThread;
 import com.example.scorehighlights.sports.SportsAbstract;
 
 import android.os.Bundle;
@@ -40,7 +40,7 @@ public class MainActivity extends Activity
     private boolean sportIsSelected = false;
 
     // Instance the asynchronous thread that gets and parses the data
-    private AsyncTaskThread asyncThread_ = null;
+    private DataPullThread asyncThread_ = null;
 
     private Spinner spinner1 = null;
 
@@ -73,7 +73,7 @@ public class MainActivity extends Activity
     {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
-        asyncThread_ = new AsyncTaskThread( this );
+        asyncThread_ = new DataPullThread( this );
 
         // Set up all of the texts
         eventName1_ = (TextView) findViewById( R.id.EventName1 );
@@ -187,6 +187,7 @@ public class MainActivity extends Activity
                 public void run()
                 {
                     resetEventArray();
+                    hideScoreText();
                     FetchNewScores();
                 }
             }, 20000 );
@@ -256,10 +257,14 @@ public class MainActivity extends Activity
      */
     private void FetchNewScores()
     {
+        // While still on the main thread display that the scores are being
+        // loading
+        eventName1_.setText( "Loading Scores..." );
+
         // Initialize the asynchronous threads
         asyncThread_.execute( (Void) null );
         asyncThread_ =
-                new AsyncTaskThread( this );
+                new DataPullThread( this );
     }
 
     /**
@@ -270,7 +275,7 @@ public class MainActivity extends Activity
         ArrayOfEvents_ = null;
         headline1StoryPositionInList = 0;
     }
-    
+
     /**
      * Anytime headline1StoryPositionInList is updated it must update if the
      * previous and next buttons should be visible or hidden
@@ -357,9 +362,6 @@ public class MainActivity extends Activity
                     }
 
                     resetEventArray();
-
-                    // Tell the main thread that scores are being loaded
-                    eventName1_.setText( "Loading Scores..." );
 
                     sportSelected_ = newSelection;
 
