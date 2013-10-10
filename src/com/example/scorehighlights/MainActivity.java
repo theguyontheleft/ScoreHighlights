@@ -1,13 +1,13 @@
 package com.example.scorehighlights;
 
 import java.util.ArrayList;
-
 import org.json.JSONObject;
 
 import com.example.scorehighlights.AsyncTaskThread;
 import com.example.scorehighlights.sports.SportsAbstract;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
@@ -65,7 +65,6 @@ public class MainActivity extends Activity
 
     // Keeps track if the two news feeds
     protected boolean headline1IsPopulated = false;
-    // protected boolean headline2IsPopulated = false;
 
     private int headline1StoryPositionInList = 0;
 
@@ -154,8 +153,9 @@ public class MainActivity extends Activity
     }
 
     /**
-     * Displays the score at the currently selected position
-     * 
+     * Displays the score at the currently selected position. Creates a delayed
+     * runnable thread to start the Asynch threads to update the scores every 20
+     * seconds.
      */
     protected void displayScores()
     {
@@ -178,6 +178,17 @@ public class MainActivity extends Activity
             event1GameTime_.setText( currentEvent.getGameTime() );
             event1CurrentPossession_.setText( currentEvent
                     .getCurrentPossession() );
+
+            // A new score was selected, thus every 20 seconds refresh and get
+            // the updated scores
+            new Handler().postDelayed( new Runnable()
+            {
+                @Override
+                public void run()
+                {
+                    FetchNewScores();
+                }
+            }, 20000 );
         }
     }
 
@@ -235,6 +246,19 @@ public class MainActivity extends Activity
     {
         spinner1 = (Spinner) findViewById( R.id.spinner1 );
         spinner1.setOnItemSelectedListener( new SpinnerData() );
+    }
+
+    /**
+     * This function is called to get the new scores, it starts the sequence of
+     * threads need to perform the httpGet and parse/process the resulting JSON
+     * data
+     */
+    private void FetchNewScores()
+    {
+        // Initialize the asynchronous threads
+        asyncThread_.execute( (Void) null );
+        asyncThread_ =
+                new AsyncTaskThread( this );
     }
 
     /**
@@ -298,8 +322,13 @@ public class MainActivity extends Activity
         {
             if ( !sportIsSelected )
             {
-                sportIsSelected = true;
                 eventName1_.setText( "Please Select a Sport" );
+                sportIsSelected = true;
+            }
+            else if ( 0 == selectedIndex )
+            {
+                eventName1_.setText( "Please Select a Sport" );
+                resetEventArray();
             }
             else
             {
@@ -318,16 +347,14 @@ public class MainActivity extends Activity
                     }
 
                     resetEventArray();
-                    
+
                     // Tell the main thread that scores are being loaded
                     eventName1_.setText( "Loading Scores..." );
 
                     sportSelected_ = newSelection;
 
-                    // Initialize the asynchronous threads
-                    asyncThread_.execute( (Void) null );
-                    asyncThread_ =
-                            new AsyncTaskThread( asyncThread_.activity_ );
+                    // Call a function to start the threads and get the scores
+                    FetchNewScores();
                 }
             }
         }
