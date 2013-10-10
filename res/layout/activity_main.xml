@@ -106,11 +106,8 @@
         android:id="@+id/gameDisplayed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/previousEventButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@id/nextEventButton"
-        android:layout_below="@+id/gameTime"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="Game # of #"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 

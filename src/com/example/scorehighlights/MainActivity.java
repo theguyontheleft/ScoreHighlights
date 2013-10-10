@@ -186,6 +186,7 @@ public class MainActivity extends Activity
                 @Override
                 public void run()
                 {
+                    resetEventArray();
                     FetchNewScores();
                 }
             }, 20000 );
@@ -261,6 +262,15 @@ public class MainActivity extends Activity
                 new AsyncTaskThread( this );
     }
 
+    /**
+     * Resets the event array and the index
+     */
+    protected void resetEventArray()
+    {
+        ArrayOfEvents_ = null;
+        headline1StoryPositionInList = 0;
+    }
+    
     /**
      * Anytime headline1StoryPositionInList is updated it must update if the
      * previous and next buttons should be visible or hidden
@@ -357,15 +367,6 @@ public class MainActivity extends Activity
                     FetchNewScores();
                 }
             }
-        }
-
-        /**
-         * Resets the event array and the index
-         */
-        protected void resetEventArray()
-        {
-            ArrayOfEvents_ = null;
-            headline1StoryPositionInList = 0;
         }
 
         @Override

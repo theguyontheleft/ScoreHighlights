@@ -7,6 +7,7 @@
     <string name="select_sport_prompt">Select Sport</string>
 
     <string-array name="selected_sport">
+        <item>Select A Sport</item>
         <item>Baseball</item>
         <item>Basketball</item>
         <item>Football</item>
