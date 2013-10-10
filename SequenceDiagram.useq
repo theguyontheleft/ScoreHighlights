@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.4" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.example.scorehighlights.MainActivity" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/MainActivity.java" binary="false" label="mainActivity" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="68" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="128" x="5" y="113"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="21" width="128" x="5" y="269"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="21" width="128" x="5" y="587"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="com.example.scorehighlights.MainActivity.SpinnerData" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/MainActivity.java" binary="false" label="spinnerData" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="68" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="128" x="137" y="134"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="63" width="128" x="137" y="179"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="63" width="128" x="137" y="248"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="com.example.scorehighlights.DataPullThread" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/DataPullThread.java" binary="false" label="dataPullThread" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="69" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="128" x="269" y="200"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="63" width="128" x="269" y="238"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="com.example.scorehighlights.ParserThread" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/ParserThread.java" binary="false" label="parserThread" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="176" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="128" x="401" y="259"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="63" width="128" x="401" y="302"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="128" x="401" y="494"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="63" width="128" x="401" y="566"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="com.example.scorehighlights.Headlines" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/Headlines.java" binary="false" label="headlines" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="195" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="128" x="533" y="323"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="63" width="128" x="533" y="369"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="21" width="128" x="533" y="587"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="63" width="128" x="533" y="473"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="com.example.scorehighlights.sports.SportsAbstract" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/SportsAbstract.java" binary="false" 
+    label="sportsAbstract" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="196" y="0"/>    
+    <execution id="27">      
+      <position height="21" width="231" x="665" y="390"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="63" width="231" x="665" y="99"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="63" width="231" x="665" y="180"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="63" width="231" x="665" y="249"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="63" width="231" x="665" y="333"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="63" width="231" x="665" y="417"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="63" width="231" x="665" y="490"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="63" width="231" x="665" y="566"/>    
+    </execution>  
+  </object>  
+  <object id="52" language="java" name="com.example.scorehighlights.sports.Tennis" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Tennis.java" binary="false" label="tennis" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="300" y="0"/>    
+    <execution id="34">      
+      <position height="21" width="157" x="900" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="com.example.scorehighlights.sports.Soccer" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Soccer.java" binary="false" label="soccer" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="278" y="0"/>    
+    <execution id="37">      
+      <position height="21" width="157" x="1061" y="201"/>    
+    </execution>  
+  </object>  
+  <object id="54" language="java" name="com.example.scorehighlights.sports.Hockey" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Hockey.java" binary="false" label="hockey" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="313" y="0"/>    
+    <execution id="40">      
+      <position height="21" width="157" x="1222" y="270"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="com.example.scorehighlights.sports.Football" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Football.java" binary="false" label="football" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="300" y="0"/>    
+    <execution id="43">      
+      <position height="21" width="157" x="1383" y="354"/>    
+    </execution>  
+  </object>  
+  <object id="56" language="java" name="com.example.scorehighlights.sports.Basketball" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Basketball.java" binary="false" label="basketball" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="289" y="0"/>    
+    <execution id="46">      
+      <position height="21" width="157" x="1544" y="438"/>    
+    </execution>  
+  </object>  
+  <object id="57" language="java" name="com.example.scorehighlights.sports.Baseball" project="ScoreHighlights" 
+    file="/ScoreHighlights/src/com/example/scorehighlights/sports/Baseball.java" binary="false" label="baseball" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="212" y="0"/>    
+    <execution id="49">      
+      <position height="21" width="157" x="1705" y="511"/>    
+    </execution>  
+  </object>  
+  <message id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="9">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="15">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="23">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="26">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="30">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="33">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="36">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="39">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="42">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="45">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="48">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="51">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>
+</sequence-diagram>
