@@ -6,7 +6,8 @@ DESCRIPTION:
 =============
 Application to display the score and schedule of sports games from selected sports. This application 
 is a draft idea of an app that would display scores and schedules of recent sports events. I used HTTML get and pulled JSON data from my ESPN developers key. 
-Furthermore, I parsed the data and used abstraction to display events for seven selectable sports. Unfortunately ESPN doesn’t give a parameter for the score of the competitors, I will implement that whenever I get the chance. This code is a draft of the app idea, and is more of a base for anyone that would like to create an app to display scores and sports events.
+Furthermore, I parsed the data and used abstraction to display events for six selectable sports.
+Unfortunately ESPN doesn’t give a parameter for the score of the competitors, I will implement that whenever I get the chance. This code is a draft of the app idea, and is more of a base for anyone that would like to create an app to display scores and sports events.
 
 For more information see the wiki page:
 https://github.com/theguyontheleft/ScoreHighlights/wiki/Home-Page
