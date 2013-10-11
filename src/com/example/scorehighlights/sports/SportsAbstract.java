@@ -1,10 +1,7 @@
 package com.example.scorehighlights.sports;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
-
-import com.example.scorehighlights.Headlines;
 
 //import com.example.scorehighlights.Headlines;
 

@@ -1,11 +1,6 @@
 package com.example.scorehighlights;
 
-import java.nio.channels.AsynchronousCloseException;
-
-import com.example.scorehighlights.MainActivity.SpinnerData;
-
 import android.os.AsyncTask;
-import android.widget.Spinner;
 
 /**
  * @author Jimmy Dagres

@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
   <class id="1" language="java" name="com.example.scorehighlights.sports.Football" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Football.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="484" y="1599"/>    
+    <position height="99" width="164" x="453" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="com.example.scorehighlights.sports.Soccer" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Soccer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="688" y="1599"/>    
+    <position height="99" width="164" x="657" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="com.example.scorehighlights.MainActivity" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="549" width="227" x="628" y="475"/>    
+    <position height="549" width="227" x="597" y="506"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="com.example.scorehighlights.DataPullThread" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/DataPullThread.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="170" x="628" y="246"/>    
+    <position height="189" width="170" x="597" y="277"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="com.example.scorehighlights.Headlines" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/Headlines.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="422" x="316" y="1064"/>    
+    <position height="225" width="422" x="285" y="1095"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="com.example.scorehighlights.sports.Hockey" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Hockey.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="892" y="1599"/>    
+    <position height="99" width="164" x="861" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="com.example.scorehighlights.sports.Tennis" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Tennis.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="1096" y="1599"/>    
+    <position height="99" width="164" x="1065" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,12 +66,12 @@
   </class>  
   <package id="8" language="java" name="com.example.scorehighlights" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="50" width="192" x="356" y="89"/>    
+    <position height="50" width="192" x="325" y="120"/>    
     <display autosize="true" stereotype="true" accessors="true"/>  
   </package>  
   <class id="9" language="java" name="com.example.scorehighlights.ParserThread" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/ParserThread.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="172" x="628" y="89"/>    
+    <position height="117" width="172" x="597" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -80,12 +80,12 @@
   </class>  
   <package id="10" language="java" name="com.example.scorehighlights.sports" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="50" width="232" x="1142" y="89"/>    
+    <position height="50" width="232" x="1111" y="120"/>    
     <display autosize="true" stereotype="true" accessors="true"/>  
   </package>  
   <class id="11" language="java" name="com.example.scorehighlights.sports.Baseball" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Baseball.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="1300" y="1599"/>    
+    <position height="99" width="164" x="1269" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -94,7 +94,7 @@
   </class>  
   <class id="12" language="java" name="com.example.scorehighlights.MainActivity.SpinnerData" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="278" x="778" y="1064"/>    
+    <position height="117" width="278" x="747" y="1095"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -103,7 +103,7 @@
   </class>  
   <class id="13" language="java" name="com.example.scorehighlights.sports.Basketball" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/Basketball.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="172" x="1504" y="1599"/>    
+    <position height="99" width="172" x="1473" y="1630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -113,93 +113,93 @@
   <class id="14" language="java" name="com.example.scorehighlights.sports.SportsAbstract" project="ScoreHighlights" 
     file="/ScoreHighlights/src/com/example/scorehighlights/sports/SportsAbstract.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="495" width="232" x="1096" y="1064"/>    
+    <position height="495" width="232" x="1065" y="1095"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="15">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="16" name="ParserThread_"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="18">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <generalization id="19">    
+  <generalization id="15">    
     <end type="SOURCE" refId="11"/>    
     <end type="TARGET" refId="14"/>  
   </generalization>  
-  <generalization id="20">    
-    <end type="SOURCE" refId="1"/>    
+  <generalization id="16">    
+    <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="14"/>  
   </generalization>  
-  <association id="21">    
+  <association id="17">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="22" name="ArrayOfEvents_"/>      
-      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="14" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <generalization id="25">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <association id="26">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="27" name="asyncThread_"/>      
-      <multiplicity id="28" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="29">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <nesting id="30">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="12"/>  
-  </nesting>  
-  <association id="31">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="32" name="activity_"/>      
-      <multiplicity id="33" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="34">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="35" name="headlines_"/>      
-      <multiplicity id="36" minimum="0" maximum="1"/>    
+      <attribute id="18" name="headlines_"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="37">    
-    <end type="SOURCE" refId="6"/>    
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="ArrayOfEvents_"/>      
+      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="24" name="activity_"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="14"/>  
   </generalization>  
-  <association id="38">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="39" name="asyncThread_"/>      
-      <multiplicity id="40" minimum="0" maximum="1"/>    
+  <generalization id="27">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="28">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="29">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="30" name="asyncThread_"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="33">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="34" name="ParserThread_"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="37">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="asyncThread_"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

@@ -11,7 +11,7 @@
       <position height="21" width="128" x="5" y="269"/>    
     </execution>    
     <execution id="6">      
-      <position height="21" width="128" x="5" y="587"/>    
+      <position height="21" width="128" x="5" y="437"/>    
     </execution>  
   </object>  
   <object id="7" language="java" name="com.example.scorehighlights.MainActivity.SpinnerData" project="ScoreHighlights" 
@@ -53,7 +53,7 @@
       <position height="21" width="128" x="401" y="494"/>    
     </execution>    
     <execution id="22">      
-      <position height="63" width="128" x="401" y="566"/>    
+      <position height="63" width="128" x="401" y="416"/>    
     </execution>  
   </object>  
   <object id="24" language="java" name="com.example.scorehighlights.Headlines" project="ScoreHighlights" 
@@ -150,63 +150,63 @@
       <position height="21" width="157" x="1705" y="511"/>    
     </execution>  
   </object>  
-  <message id="3">    
+  <message id="3" operation="initializeSpinner():void">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="4"/>  
   </message>  
-  <message id="9">    
+  <message id="9" operation="onItemSelected(android.widget.AdapterView&lt;?&gt;,android.view.View,int,long):void">    
     <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="10"/>  
   </message>  
-  <message id="12">    
+  <message id="12" operation="onNothingSelected(android.widget.AdapterView&lt;?&gt;):void">    
     <end type="SOURCE" refId="11"/>    
     <end type="TARGET" refId="5"/>  
   </message>  
-  <message id="15">    
+  <message id="15" operation="onPostExecute(java.lang.String):void">    
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="16"/>  
   </message>  
-  <message id="19">    
+  <message id="19" operation="onPostExecute(java.lang.String):void">    
     <end type="SOURCE" refId="18"/>    
     <end type="TARGET" refId="20"/>  
   </message>  
-  <message id="23">    
+  <message id="23" operation="displayScores():void">    
     <end type="SOURCE" refId="22"/>    
     <end type="TARGET" refId="6"/>  
   </message>  
-  <message id="26">    
+  <message id="26" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="25"/>    
     <end type="TARGET" refId="27"/>  
   </message>  
-  <message id="30">    
+  <message id="30" operation="onPostExecute(java.lang.String):void">    
     <end type="SOURCE" refId="29"/>    
     <end type="TARGET" refId="21"/>  
   </message>  
-  <message id="33">    
+  <message id="33" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="32"/>    
     <end type="TARGET" refId="34"/>  
   </message>  
-  <message id="36">    
+  <message id="36" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="35"/>    
     <end type="TARGET" refId="37"/>  
   </message>  
-  <message id="39">    
+  <message id="39" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="38"/>    
     <end type="TARGET" refId="40"/>  
   </message>  
-  <message id="42">    
+  <message id="42" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="41"/>    
     <end type="TARGET" refId="43"/>  
   </message>  
-  <message id="45">    
+  <message id="45" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="44"/>    
     <end type="TARGET" refId="46"/>  
   </message>  
-  <message id="48">    
+  <message id="48" operation="intializeEventVariables():void">    
     <end type="SOURCE" refId="47"/>    
     <end type="TARGET" refId="49"/>  
   </message>  
-  <message id="51">    
+  <message id="51" operation="getArrayOfEvents_():java.util.ArrayList&lt;SportsAbstract&lt;String,JSONObject&gt;&gt;">    
     <end type="SOURCE" refId="50"/>    
     <end type="TARGET" refId="28"/>  
   </message>
