@@ -45,7 +45,7 @@ public class Hockey extends SportsAbstract<String, JSONObject>
                 if ( null != statisObject )
                 {
                     currentPossession_ =
-                            statisObject.getString( "description" );
+                            statisObject.getString( "detail" );
                     gameTime_ = competitorsObject.getString( "date" );
                 }
 
