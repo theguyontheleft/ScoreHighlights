@@ -34,6 +34,9 @@ public class MainActivity extends Activity
     Button previousEventButton_ = null;
     Button nextEventButton_ = null;
 
+    // Boolean to track the refresh polling of the scores
+    boolean handlerRunning_;
+
     /**
      * Stores whether a sport was selected
      */
@@ -181,14 +184,18 @@ public class MainActivity extends Activity
 
             // A new score was selected, thus every 20 seconds refresh and get
             // the updated scores
-            new Handler().postDelayed( new Runnable()
+            handlerRunning_ = new Handler().postDelayed( new Runnable()
             {
                 @Override
                 public void run()
                 {
+                    // if ( asyncThread_.isCancelled() )
+                    // {
                     resetEventArray();
                     hideScoreText();
                     FetchNewScores();
+                    System.out.print( "Refreshing the scores" );
+                    // }
                 }
             }, 20000 );
         }
