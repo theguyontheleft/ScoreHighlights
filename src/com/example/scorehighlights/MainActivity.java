@@ -43,7 +43,7 @@ public class MainActivity extends Activity
     private boolean sportIsSelected = false;
 
     // Instance the asynchronous thread that gets and parses the data
-    private DataPullThread asyncThread_ = null;
+//    private DataPullThread asyncThread_ = null;
 
     private Spinner spinner1 = null;
 
@@ -60,6 +60,9 @@ public class MainActivity extends Activity
     // Instance the headlines child class
     protected Headlines headlines_ = null;
 
+    // Instance the asynchronous thread that gets and parses the data
+    private DataPullThread asyncThread_ = null;
+    
     /**
      * The sportSelected_ is used to compare events pulled to ensure only events
      * that are important are displayed
