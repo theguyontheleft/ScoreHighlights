@@ -31,3 +31,4 @@ INSTRUCTIONS:
 =======================================
 Building the project
 * You will need to connect it to an android device and run it through eclipse or use one of eclipses virtual devices.
+
